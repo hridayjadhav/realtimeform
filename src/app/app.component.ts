@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'realtimeform';
+  
+  
+  postTitle!: string;     
+  postDetails!: string;
+  imageURL!: string;
+  postURL!:string;
+  addBackground!:boolean;
+
+  //exclamation mark is to tells the compiler to ignore the possibility of it being undefined.
+
+
 }

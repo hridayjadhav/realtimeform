@@ -1,0 +1,32 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.form-area{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+}
+ */
+ 
+ .form-area, .preview-area{
+    margin-top: 50px;
+   text-align: center; 
+ }
+
+
+ .preview-area img{
+    width: 20%;
+    height: 20%;
+    background-size: cover;
+ }
+
+ .add-background{
+    background-color: yellow;
+    padding: 10px;
+ }
+
